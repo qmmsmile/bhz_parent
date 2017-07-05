@@ -12,6 +12,6 @@
 </head>
 
 <body>
-${user.userName}
+userName:${user.userName}
 </body>
 </html>
