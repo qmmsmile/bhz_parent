@@ -36,7 +36,7 @@ public class UserController {
         return "showUser";
     }
 
-    //前后端分离
+/*    //前后端分离
     @RequestMapping(value = "/show",method = RequestMethod.GET)
     @ResponseBody
     public ResponseMessage showUser(Integer id){
@@ -47,7 +47,7 @@ public class UserController {
         myUser.setAge(user.getAge());
         logger.info("myUser==================>"+myUser.getName());
         return new ResponseMessage().success().packageData("list",myUser);
-    }
+    }*/
 
 
 }
